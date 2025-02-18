@@ -27,9 +27,9 @@ io.on("connection", function(socket) {
 
 // Route to render the index.ejs file
 app.get("/", function(req, res) {
-    res.render("index");  
+    res.render("hero");  
 });
 
-server.listen(3000, () => {
-    console.log("Server is running on http://localhost:3000");
+server.listen(4000, () => {
+    console.log("Server is running on http://localhost:4000");
 });
